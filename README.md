@@ -41,10 +41,10 @@ and use the placeholders in the holograms, which works wonders.
 From now on, whenever you need to change a server status, just use the /shadovstatus command, and everything is ready for you.
 
 ## Commands
-1. /shadovstatus <server|reload> [server] - one and only command of the plugin, this will either reload the configuration, or change the server status.
+1. /shadovstatus <server|reload> [status] - one and only command of the plugin, this will either reload the configuration, or change the server status.
 
 ## Placeholders
-1. %shadovstatus_<server>% - displays a nicely-formatted status of a server, configurable.
+1. %shadovstatus_server% - displays a nicely-formatted status of a server, configurable.
 
 ## Permissions
 1. shadovstatus.admin - Allows the holder to use the /serverstatus command, therefore change the statuses of any server.
