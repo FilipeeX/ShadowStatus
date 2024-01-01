@@ -1,5 +1,6 @@
 package filip.filipeex.karab.util;
 
+import filip.filipeex.karab.shadovstatus.ShadovStatusGet;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.OfflinePlayer;
 
@@ -7,7 +8,7 @@ public class Papi extends PlaceholderExpansion {
 
     @Override
     public String getIdentifier() {
-        return "shadowstatus";
+        return "shadovstatus";
     }
 
     @Override
@@ -22,8 +23,7 @@ public class Papi extends PlaceholderExpansion {
 
     @Override
     public String onRequest(OfflinePlayer hrac, String parametre) {
-
-        return "status_is_gonna_be_displayed_here";
+        return ShadovStatusGet.getStatus(parametre);
     }
 
 }

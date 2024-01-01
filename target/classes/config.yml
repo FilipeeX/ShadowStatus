@@ -1,0 +1,40 @@
+#
+# _____ _               _                      _____ _        _
+# / ____| |             | |                    / ____| |      | |
+# | (___ | |__   __ _  __| | _____      __     | (___ | |_ __ _| |_ _   _ ___
+# \___ \| '_ \ / _` |/ _` |/ _ \ \ /\ / /      \___ \| __/ _` | __| | | / __|
+# ____) | | | | (_| | (_| | (_) \ V  V /       ____) | || (_| | |_| |_| \__ \
+# |_____/|_| |_|\__,_|\__,_|\___/ \_/\_/       |_____/ \__\__,_|\__|\__,_|___/
+#
+#  A minecraft plugin for changing and checking a status of a minecraft server in a multi-server configuration.
+#    CONFIGURATION FILE config.yml
+
+
+# This is the actual text displayed instead of a placeholder, color codes supported, even HEX colors, through &#XXXXXX.
+0: '&cOffline'
+1: '&aOnline'
+2: '&#d14804Under Maintenance'
+3: '&eComming Soon...'
+
+
+# This is the list of all the servers, if you add or remove something here, be sure to also add or remove the status of the server below.
+servers:
+  - server1
+  - server2
+  - server3
+  - server4
+  - server5
+
+
+# This are the actual statuses of the server, stored in the config.
+# Don't forget to add or remove any if changing the server list.
+# If you change them, make sure to run /shadowstatus reload for the changes to apply.
+# 0 = OFFLINE
+# 1 = ONLINE
+# 2 = MAINTENANCE
+# 3 = SOON...
+server1: 3
+server2: 0
+server3: 2
+server4: 1
+server5: 2
