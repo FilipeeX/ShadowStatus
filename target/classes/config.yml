@@ -28,7 +28,7 @@ servers:
 
 # This are the actual statuses of the server, stored in the config.
 # Don't forget to add or remove any if changing the server list.
-# If you change them, make sure to run /shadowstatus reload for the changes to apply.
+# If you change them, make sure to run /shadovstatus reload for the changes to apply.
 # 0 = OFFLINE
 # 1 = ONLINE
 # 2 = MAINTENANCE
