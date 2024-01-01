@@ -2,9 +2,7 @@ package filip.filipeex.karab;
 
 import filip.filipeex.karab.util.ChatFarby;
 import filip.filipeex.karab.util.Log;
-import filip.filipeex.karab.util.Placeholdery;
-import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
+import filip.filipeex.karab.util.Papi;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
@@ -36,7 +34,7 @@ public class Main extends JavaPlugin {
     }
 
     private void registrujPlaceholdery() {
-        new Placeholdery().register();
+        new Papi().register();
     }
 
     private void registrujPrikazy() {

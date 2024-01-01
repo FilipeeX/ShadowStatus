@@ -3,7 +3,7 @@ package filip.filipeex.karab.util;
 import me.clip.placeholderapi.expansion.PlaceholderExpansion;
 import org.bukkit.OfflinePlayer;
 
-public class Placeholdery extends PlaceholderExpansion {
+public class Papi extends PlaceholderExpansion {
 
     @Override
     public String getIdentifier() {
@@ -23,7 +23,7 @@ public class Placeholdery extends PlaceholderExpansion {
     @Override
     public String onRequest(OfflinePlayer hrac, String parametre) {
 
-        return "{status}";
+        return "status_is_gonna_be_displayed_here";
     }
 
 }
